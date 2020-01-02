@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Share+Tech+Mono|ZCOOL+QingKe+HuangYou');
+
+/* font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Share Tech Mono', monospace; */
+
+
+*
+{
+    padding : 0;
+    margin : 0;
+    background-color: black;
+    color: rgb(37, 172, 37);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+input
+{
+    border-color: white;
+    height: 20px;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none;
+    color:black;
+}
+.invalidMailField
+{
+    border: 2px dotted salmon;
+}
+.invalidContactField
+{
+    border: 2px dotted salmon;
+}
+
+div.home
+{
+    text-align: center;
+    margin-top: 7%;
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+div.wrapper
+{
+    text-align: center;
+    
+}
+
+div.instruction-1
+{
+    
+    width: 30%;
+    margin: 10px auto;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 4%;
+
+}
+
+div.numberField
+{
+    padding-top:2%;
+    font-size: 30px;
+    width: 30%;
+    text-align: left;
+    margin: 10px auto;
+}
+div.instruction-2
+{
+    padding-top:2%;
+    font-size: 30px;
+    width: 30%;
+    margin: 10px auto;
+    text-align: left;
+
+
+}
+div.mailField
+{
+    padding-top: 2%;
+    font-size: 30px;
+    width: 30%;
+    margin: 10px auto;
+    text-align: left;
+    padding-bottom: 2%;
+    
+}
+div.errorMessage
+{
+  
+    width: 40%;
+    margin: 10px auto;
+    padding-left: 3%;
+    
+}
+.emptyContact
+{
+
+    width: 40%;
+    font-size: 20px;
+    margin: 3%;
+    float: left;
+}
+.emptyEmail
+{
+
+    font-size: 20px;
+    width: 40%;
+    margin: 3%;
+    float: left;
+}
+.invalidEmail
+{
+
+    width: 40%;
+    font-size: 20px;
+    margin: 3%;
+    float: left;
+}
+.invalidContact
+{
+
+    width: 40%;
+    margin: 3%;
+    font-size: 20px;
+    float: left;
+}
+div.buttons
+{
+    clear: both;
+}
+.submitBt
+{
+    font-size: 40px;
+    height: 5%;
+    width: 12%;
+    margin-right: 10px;
+}
+.resetBt
+{
+    font-size: 40px;
+    height: 5%;
+    width: 12%;
+    margin-left: 10px;
+}

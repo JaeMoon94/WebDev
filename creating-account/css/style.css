@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css?family=Frijole|Kranky|Skranji');
+/* font-family: 'Skranji', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Frijole', cursive; */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(127, 208, 255);
+    color: rgb(251, 255, 0);
+    font-family: 'Frijole', cursive;
+    
+}
+
+div.Wrapper
+{
+    float: left;
+    height: 80%;
+    width: 45%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+div.main
+{
+    font-size: 50px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+div.img1
+{
+    float: left;
+    width:300px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+div.img2
+{   
+    float: right;
+    clear: both;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+div.Id
+{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+div.Password
+{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+.IdField
+{
+    width: 250px;
+    font-size: 30px;
+    margin-bottom: 5%;
+    border: rgb(251, 255, 0) solid 2px;
+}
+.passwordField
+{
+    width: 250px;
+    font-size: 30px;
+    margin-bottom: 5%;
+    border: rgb(251, 255, 0) solid 2px;
+
+}
+div.buttons
+{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.submitBt
+{
+    font-size: 30px;
+    margin-right: 3%;
+    border: rgb(251, 255, 0) solid 2px;
+}
+.resetBt
+{
+    font-size: 30px;
+    margin-left: 3%;
+    border: rgb(251, 255, 0) solid 2px;
+    
+}
+.creatAccount
+{
+    font-size: 30px;
+    margin-right: 3%;
+    border: rgb(251, 255, 0) solid 2px;
+
+}
+
+div.hide
+{
+    display: none;
+}
+.showDenied
+{
+    font-size: 70px;
+    text-align: center;
+}
+.showGranted
+{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.emptyID
+{   text-align: center;
+    font-size: 25px;
+    margin-bottom: 2%;
+    width: auto;
+    height: 65px;
+    font-weight: bolder;
+    padding-top: 20px;
+    border-radius: 5%;
+    
+}
+.emptyPassword
+{
+    text-align: center;
+    font-size: 25px;
+    height: 65px;
+    width: auto;
+    font-weight: bolder;
+    padding-top: 20px;
+    border-radius: 5%;
+
+}

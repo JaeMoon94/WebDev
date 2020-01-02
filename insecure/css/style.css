@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Russo+One|VT323');
+/* font-family: 'VT323', monospace;
+font-family: 'Russo One', sans-serif;
+font-family: 'Orbitron', sans-serif; */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: yellow;
+    
+}
+
+div.Wrapper
+{
+    
+    height: 80%;
+    width: 45%;
+    margin: 2% auto;
+    font-family: 'VT323', monospace;
+}
+
+div.main
+{
+    font-size: 30px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+div.Id
+{
+    font-size: 30px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+div.Password
+{
+    font-size: 30px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.IdField
+{
+ 
+    font-size: 30px;
+    margin-bottom: 5%;
+    border-color: white;
+    color: yellow;
+    font-family: 'VT323', monospace;
+}
+.passwordField
+{
+    font-size: 30px;
+    margin-bottom: 5%;
+    border-color: white;
+    color:yellow;
+    font-family: 'VT323', monospace;
+}
+
+div.buttons
+{
+
+    margin-bottom: 5%;
+    text-align: center;
+}
+.submitBt
+{
+    font-size: 30px;
+    margin-right: 3%; 
+    
+    
+}
+.resetBt
+{
+    font-size: 30px;
+    margin-left: 3%;
+    
+}
+
+.hide
+{
+    display: none;
+}
+.showDenied
+{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+
+}
+.showGranted
+{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 10%;
+}
+.emptyID
+{   text-align: center;
+    font-size: 25px;
+    margin-bottom: 2%;
+    background-color: yellow;
+    width: auto;
+    height: 65px;
+    color: black;
+    font-weight: bolder;
+    padding-top: 20px;
+    border-radius: 5%;
+    font-family: 'Orbitron', sans-serif;
+}
+.emptyPassword
+{
+    text-align: center;
+    font-size: 25px;
+    background-color: yellow;
+    color: black;
+    height: 65px;
+    width: auto;
+    font-weight: bolder;
+    padding-top: 20px;
+    border-radius: 5%;
+    font-family: 'Orbitron', sans-serif; 
+}
+

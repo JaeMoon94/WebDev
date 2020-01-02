@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Libre+Barcode+39+Text');
+
+/* font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Inconsolata', monospace; */
+*
+{
+    padding : 0;
+    margin : 0;
+    background-color:black;
+}
+
+
+div.header
+{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 50px;
+    padding: 5%;
+    text-align: center;
+    color : white;
+}
+
+div.pointer
+{
+    font-size: 40px;
+    padding: 3%;
+    text-align: center;
+    color : white;
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+
+div.checkBox
+{
+    margin: 20px auto;
+    padding: 10px;
+    color : white;
+    text-align: left;
+    font-size: 20px;
+    width: 25%;
+    font-family: 'Inconsolata', monospace;
+}
+.submitBt
+{
+    color : white;
+    width: 40%;
+    font-size: 30px;
+}
+.reset
+{
+    color : white;
+    width: 40%;
+    font-size: 30px;
+}
+.buttons
+{
+    margin-top: 13%;
+    text-align: center;
+}
+.checkboxes
+{
+    list-style: none;
+    margin: 3%;
+}
+.submitBt
+{
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.reset
+{
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+div.head2
+{
+    text-align: center;
+    padding: 7%;
+    font-size: 50px;
+    color:white;
+    font-family: 'Inconsolata', monospace;
+}
+div.list
+{
+    color: white;
+    padding-left: 10%;
+    text-align: left;
+    font-size: 30px;
+    width: 40%;
+    margin: 10px auto;
+    font-family: 'Inconsolata', monospace; 
+    line-height: 50px;
+}
+
+.slides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.imgcontainer
+{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}

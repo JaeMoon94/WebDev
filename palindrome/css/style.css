@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans+Condensed:300');
+
+.good, .bad {padding: 5px 10px; display : inline-block; border-radius: 20%;}
+.good {background-color : lightgreen;}
+.bad {background-color: lightsalmon;}
+
+h1{margin: 0px; font-size:20px; font-family: 'Open Sans Condensed', sans-serif;}
+ul{margin-top:2px;}
+
+h1.class a{text-decoration: none; color:black;}
+h1.class a:hover {color: lightgrey};
+div.facts
+{
+    border: 4px dotted plum;
+    margin: 5px;
+    flex-basis: 30%;
+    justify-content: space-around;
+}
+div.facts-wrapper
+{
+    display: flex;
+    flex-wrap:wrap;
+}
+.welcome
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.form-wrapper
+{
+    width: 400px;
+    margin: 20px auto;
+}
+
+form, input
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    display: block;
+}
+input
+{
+    width: 100%;
+    padding: 8px;
+    font-size: 25px;
+}
+input[type = "submit"],input[type = "reset"]
+{
+    width:49%;
+    display:inline-block;
+    font-size: 20px;
+}
+input[type = "submit"]
+{
+    float: right;
+}
+select
+{
+    display: block;
+    border: 10px solid green;
+}
+.warning
+{
+    width: 75%;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: yellow;
+}
+
+
+
+

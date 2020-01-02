@@ -1,0 +1,48 @@
+
+canvas
+{
+    border: 2px solid white;
+}
+div.container-1
+{
+    margin-top : 1%;
+}
+.dropdown-content {
+
+    display : none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    min-width: 184px;
+    background-color: #f9f9f9;
+    border-radius: 3%
+
+}
+
+.dropdown-content a
+{
+    float: none;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.hide
+{
+    display: none;
+}
+.GameOver
+{
+    display: inherit;
+}
+.show
+{
+    overflow: hidden;
+    clear: both;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Share+Tech+Mono|ZCOOL+QingKe+HuangYou');
+
+/* font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Share Tech Mono', monospace; */
+
+
+*
+{
+    padding : 0;
+    margin : 0;
+    background-color: black;
+    color: rgb(37, 172, 37);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+a
+{
+    text-decoration: none;
+}
+div.wrapper
+{
+    text-align: center;
+}
+
+div.hacker
+{
+   padding-top: 5%;
+}
+
+div.contactField
+{
+    font-size: 30px;
+    padding-top:1%;  
+}
+div.instruction-1
+{
+    padding-top:1%;   
+}
+.showcontact
+{
+    padding-top:1%;  
+}
+div.mailField
+{
+    font-size: 30px;
+    padding-top:1%;  
+}
+.showMail
+{
+    padding-top: 1%;
+}
+div.validate
+{
+    padding-top: 2%;
+    font-size: 30px;
+}
+div.start
+{
+    padding-top: 3%;
+}
+div.back
+{
+    padding: 2%;
+   
+}
+h1
+{
+    color: white;
+    animation:blinkingText 0.5s infinite;
+}
+
+
+@keyframes blinkingText{
+	0%{		color: white;	}
+	49%{	color: yellow;	}
+	50%{	color: lightgreen;	}
+	99%{	color: rgb(37, 172, 37);	}
+	100%{	color: white; }
+}	
